@@ -1,0 +1,6 @@
+function addtwonumbers(a,b){
+let c = a+b;
+console.log(c);
+}
+let result = addtwonumbers(5,5);
+console.log(result);
