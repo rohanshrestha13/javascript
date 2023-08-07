@@ -1,0 +1,5 @@
+let addtwonumbers=(a,b)=>{
+let c = a+b;
+console.log(c);
+}
+addtwonumbers(5,5);
