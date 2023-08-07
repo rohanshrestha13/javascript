@@ -1,0 +1,4 @@
+let tst=["Ram",1,{name:"hello"}];
+tst.push(5);
+tst.pop(name);
+console.log(tst);
