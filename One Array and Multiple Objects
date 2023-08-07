@@ -1,0 +1,26 @@
+let user=[
+{
+name:"Harry",
+age:20,
+address:"Kathmandu"
+},
+{
+name:"Ram",
+age:21,
+address:"Bhaktapur"
+},
+{
+name:"Shyam",
+age:25,
+address:"Pokhara"
+}
+];
+
+let getName = (user) =>{
+user.forEach((item) => {
+  if(item.age>=22){
+    console.log(item.name);
+  }
+});
+}; 
+getName(user);
