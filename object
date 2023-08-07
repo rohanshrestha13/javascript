@@ -1,0 +1,8 @@
+let user={
+name:"Harry",
+age:20,
+address:"Kathmandu"
+};
+console.log(user);
+user.name="Ram";
+console.log(user.name);
