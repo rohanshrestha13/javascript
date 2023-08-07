@@ -1,0 +1,52 @@
+In Html: <!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+        <div id="first_id">
+            <h1>First Text</h1>
+        </div>
+
+        <div class="first_class">
+            <h1>Second Text</h1>
+        </div>
+
+        <div id="second_id">
+            <h1>Third Text</h1>
+        </div>
+
+        <div class="second_class">
+            <p>Fourth Text</p>
+        </div>
+	<div class="main">
+	<h1>First Welcome</h1>
+	</div>
+	<div class="main">
+	 Second Welcome
+	</div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+In js: 
+let u = document.getElementById("first_id");
+console.log(u);
+
+let v = document.getElementsByClassName("first_class")[0];
+console.log(v);
+
+let w = document.getElementById("second_id").innerHTML="Text Changed!";
+console.log(w);
+
+let x = document.getElementsByClassName("second_class").innerHTML="Paragraph Changed!";
+console.log(x);
+
+let y = document.getElementsByClassName("main")[0];
+console.log(y);
+
+let z = document.getElementsByClassName("main")[1];
+console.log(z);
+
+let a = document.getElementsByClassName("main")[1].innerHTML;
+alert(a);
