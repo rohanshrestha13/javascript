@@ -1,0 +1,18 @@
+class studentdata{
+userweight=0;
+userClass=0;
+constructor (weight, Class){ 
+this.userweight=weight;
+this.userClass=Class;
+}
+getstudentweight(){
+console.log("The weight of student is: "+this.userweight);
+}
+getstudentClass(){
+console.log("The student studies in: "+this.userClass);
+}
+}
+let Studentobj = new studentdata(65, "Grade 10");
+Studentobj.getstudentweight();
+Studentobj.getstudentClass();
+
