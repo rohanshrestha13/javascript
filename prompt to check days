@@ -1,0 +1,19 @@
+let inputDay = prompt("What is today's day?: ").toLowerCase();
+let date = new Date();
+let currentDay = date.getDay(); // 0 for Sunday, 1 for Monday
+
+function getDayIndex(day) {
+    const daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    return daysOfWeek.indexOf(day);
+}
+
+function checkDay(day) {
+    if (getDayIndex(day) === currentDay) {
+        document.write("True");
+    } else {
+        let newValue = prompt("Enter again").toLowerCase();
+        checkDay(newValue);
+    }
+}
+
+checkDay(inputDay);
