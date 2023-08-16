@@ -1,0 +1,11 @@
+//js
+let headingElem = document.getElementById("heading");
+
+function textchange(){
+headingElem.innerHTML="New Text";
+}
+
+
+//html:
+<h1 id="heading">Heading</h1>
+	<button onclick="textchange()">Change Text</button>
