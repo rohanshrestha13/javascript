@@ -1,0 +1,15 @@
+try{
+    let addition = add =(a,b) => {
+        let sum=a+b;
+        document.write("Sum is: " + sum);
+}
+addition(5,7);
+
+}
+
+catch(error){
+    document.write("Error occured!", error);
+}
+	finally{
+    console.log("Good!");
+}
