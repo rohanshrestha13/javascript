@@ -1,0 +1,6 @@
+//js:
+let username = "Harry";
+localStorage.setItem("name", username);
+let data = localStorage.getItem("name");
+
+document.write(data);
