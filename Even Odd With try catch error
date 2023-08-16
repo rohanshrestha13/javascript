@@ -1,0 +1,31 @@
+//In HTML:
+   <input type="text" id="InputData" onchange="check()">
+            <button onclick="check()">Check Even Number</button>
+
+//In js:
+function check(){
+    let inputtext = document.getElementById("InputData").value;
+    console.log(inputtext);
+    try{
+        if(inputtext%2==0){
+            document.write("It is Even.");
+        }
+        else{
+            document.write("It id odd.");
+        }
+    }
+    catch(error){
+
+       if(inputtext!=number){
+            document.write("Not a number!");
+       }
+
+    }
+    finally{
+        console.log("Good!");
+    }
+  
+    
+}
+
+
