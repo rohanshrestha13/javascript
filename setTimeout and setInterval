@@ -1,2 +1,7 @@
+let headingElem = document.getElementById("heading");
+
+let textchange = () => {
+document.write("Harry ");
+}
 //setTimeout(textchange,5000);
 //setInterval(textchange,5000);
