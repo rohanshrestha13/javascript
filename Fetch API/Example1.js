@@ -10,8 +10,8 @@ fetch("https://jsonplaceholder.typicode.com/users")
 .then((res) =>{
     return res.json();
 })
-.then((data) => console.log(data));
-
+.then((data) => console.log(data))
+.then((error)=> console.log("Error",error));
 </script>
 </body>
 </html>
